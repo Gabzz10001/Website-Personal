@@ -34,6 +34,54 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+  }
+
+  #portfolio4 {
+      background-color: #fff; /* Ganti sesuai kebutuhan */
+      padding: 20px;
+      box-sizing: border-box;
+  }
+
+  #container2 {
+      max-width: 750px;
+      margin: 0 auto;
+  }
+
+  #section-title2 {
+      text-align: center;
+  }
+
+  #video-container2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 0 100px;
+      box-sizing: border-box;
+  }
+
+  #video2 {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  /* Media query untuk perangkat dengan lebar layar maksimal 600px (mobile) */
+  @media (max-width: 600px) {
+      #video-container2 {
+          padding: 0 20px; /* Mengurangi padding untuk layar kecil */
+      }
+  }
+
+  </style>
+ 
 </head>
 
 <body>
@@ -263,26 +311,16 @@
     </section><!-- End Resume Section -->
 
     
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Kebangkitan Seni Budaya Nusantara</h2>
+  <section id="portfolio" class="portfolio section-bg">
+      <div id="container">
+          <div class="section-title">
+              <h2>Kebangkitan Seni Budaya Nusantara</h2>
           </div>
-          <div class="video">
-         <video controls src="assets/video/bing.mp4"></video>
-         
-        </div>
-    </div>
-    </section>
-    <style>
-        video{
-            float : center;
-            width: 750px;
-            margin-right: 100px;
-            margin-left: 100px;
-        }
-    </style>
+          <div id="video-container2">
+              <video id="video2" controls src="assets/video/bing.mp4"></video>
+          </div>
+      </div>
+  </section>
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
